@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AVİS KURUMSAL FİLO | Araç Kiralama</title>
+  <meta name="description" content="Ekonomikten lükse sıralanmış kiralık araç seçenekleri, hızlı WhatsApp rezervasyonu ve kurumsal filo çözümleri.">
+  <link rel="icon" href="assets/img/favicon.webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#anasayfa" data-company-name>AVİS KURUMSAL FİLO</a>
+      <nav class="nav-links">
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#araclar">Araçlarımız</a>
+        <a href="#rezervasyon">Rezervasyon</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" data-phone-link href="#">Hemen Ara</a>
+        <a class="btn btn-green" data-wa-link href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="anasayfa">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="hero-badges">
+            <span class="badge">Kurumsal filo</span>
+            <span class="badge">7/24 destek</span>
+            <span class="badge">Havalimanı teslimat</span>
+          </div>
+          <h1>Her bütçeye uygun, düzenli ve güven veren araç kiralama.</h1>
+          <p>Ekonomik, orta segment, SUV, hatchback ve panelvan seçeneklerini tek ekranda filtreleyin. Tüm rezervasyonlar WhatsApp üzerinden hızlıca alınır, araç teslim süreçleri pratik ilerler.</p>
+          <div class="nav-actions">
+            <a class="btn btn-primary" href="#araclar">Araçları İncele</a>
+            <a class="btn btn-green" data-wa-link href="#" target="_blank" rel="noopener">WhatsApp Rezervasyon</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-stage">
+            <img class="hero-car" src="assets/img/hero/hero-arac.png" alt="Hero araç görseli">
+          </div>
+          <div class="hero-offer">Online rezervasyona özel <span>%30'a varan indirim</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="araclar">
+      <div class="container">
+        <div class="filters">
+          <div class="filter-grid">
+            <input id="searchInput" class="filter-input" type="search" placeholder="Araç adı ile ara...">
+            <select id="bodyFilter" class="filter-select">
+              <option value="all">Kasa tipi: Tümü</option>
+              <option value="sedan">Sedan</option>
+              <option value="suv">SUV</option>
+              <option value="hatchback">Hatchback</option>
+              <option value="panelvan">Panelvan</option>
+            </select>
+            <select id="priceFilter" class="filter-select">
+              <option value="all">Fiyat aralığı: Tümü</option>
+              <option value="0-2000">0 - 2000 TL</option>
+              <option value="2001-3500">2001 - 3500 TL</option>
+              <option value="3501-5000">3501 - 5000 TL</option>
+              <option value="5001-9500">5001 - 9500 TL</option>
+            </select>
+          </div>
+          <div class="chip-row" id="segmentChips">
+            <button class="chip active" data-segment="all">Tümü</button>
+            <button class="chip" data-segment="ekonomik">Ekonomik</button>
+            <button class="chip" data-segment="ortasegment">Orta Segment</button>
+            <button class="chip" data-segment="luks">Lüks</button>
+          </div>
+        </div>
+
+        <div class="section-title" style="margin-top:24px;">
+          <h2>Türkiye'nin Filosu</h2>
+          <p>Geniş Araç Filomuz İle Türkiye'nin 81 İlinde Mobil Teslim Ücretsiz Vale Hizmeti.</p>
+        </div>
+
+        <div class="results-bar">
+          <div class="results-meta" id="resultCount"></div>
+          <button class="btn btn-outline" id="resetFilters">Filtreleri Sıfırla</button>
+        </div>
+
+        <div class="cars-grid" id="carsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="rezervasyon">
+      <div class="container reserve-grid">
+        <div class="reserve-box">
+          <div class="section-title">
+            <h2>Neden Biz</h2>
+            <p>Aracı seç, kartın altındaki WhatsApp butonuna bas, tarih ve lokasyon bilgisini gönder. Ekip aynı hat üzerinden hızlı dönüş yapar.</p>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>1</strong><span>Tüm Araçlarımızda Sınırız Km</span></div>
+            <div class="stat"><strong>2</strong><span>Türkiye'nin 81 İlinde Ücretsiz Vale Hizmeti</span></div>
+            <div class="stat"><strong>3</strong><span>Araçlarımız Full Kasko Ve Sigortalı</span></div>
+            <div class="stat"><strong>4</strong><span>Yol Yardım Desteği</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hakkimizda">
+      <div class="container about-grid">
+        <div class="about-box">
+          <div class="section-title">
+            <h2>Hakkımızda</h2>
+            <p>Kurumsal ve bireysel müşteriler için sade, güven veren ve hızlı araç kiralama deneyimi sunan bir yapı kuruldu. Araç parkı ekonomikten lükse sıralı şekilde hazırlanmıştır.</p>
+          </div>
+          <div class="small">Tüm teslimatlar rezervasyon onayı sonrası planlanır. Havalimanı teslim, şehir içi teslim ve uzun dönem filo talepleri için aynı iletişim hattı kullanılır. Araç seçimini zorlaştıran kalabalık tasarım yerine, simetrik kart yapısı ve net fiyatlar ön planda tutuldu.</div>
+        </div>
+        <div class="about-box">
+          <div class="section-title">
+            <h2>Lokasyonlar</h2>
+            <p>Yoğun kullanılan teslim ve iade noktaları</p>
+          </div>
+          <div class="list" id="locationsList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeri">
+      <div class="container">
+        <div class="section-title">
+          <h2>Araç galerisi</h2>
+          <p>Alt bölümde gereksiz kutucuk ikonlar yerine doğrudan araç görselleri kullanıldı.</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="iletisim">
+    <div class="container footer-grid">
+      <div class="footer-box">
+        <h3>İletişim</h3>
+        <div class="list">
+          <a data-phone-link href="#"><span>Telefon:</span> <strong data-phone-display></strong></a>
+          <a data-wa-link href="#" target="_blank" rel="noopener">WhatsApp rezervasyon hattı</a>
+          <span data-working-hours></span>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Hızlı menü</h3>
+        <div class="list">
+          <a href="#araclar">Araçlarımız</a>
+          <a href="#rezervasyon">Rezervasyon</a>
+          <a href="#hakkimizda">Hakkımızda</a>
+          <a href="#galeri">Galeri</a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Not</h3>
+        <div class="small">BİZİ TERCİH ETTİĞİNİZ İÇİN TEŞEKKÜRLER DİLERİZ.</div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="btn btn-green floating-wa" data-wa-link href="#" target="_blank" rel="noopener">WhatsApp</a>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/cars.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
