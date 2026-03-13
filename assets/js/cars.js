@@ -1,27 +1,11 @@
 window.CARS = [
   {
     "id": 1,
-    "name": "Fiat Linea",
-    "image": "assets/img/cars/Fiat-Linea.webp",
-    "body": "sedan",
-    "segment": "ekonomik",
-    "price": 1100,
-    "deposit": 4000,
-    "features": [
-      "Klima",
-      "Geri görüş sensörü"
-    ],
-    "fuel": "Benzin",
-    "transmission": "Otomatik",
-    "year": 2024
-  },
-  {
-    "id": 2,
     "name": "Citroen C-Elysee",
     "image": "assets/img/cars/citroen-celysee.webp",
     "body": "sedan",
     "segment": "ekonomik",
-    "price": 1200,
+    "price": 800,
     "deposit": 4000,
     "features": [
       "Yokuş kalkış desteği",
@@ -32,12 +16,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Renault Clio",
     "image": "assets/img/cars/renault-clio.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1300,
+    "price": 850,
     "deposit": 4200,
     "features": [
       "CarPlay",
@@ -48,12 +32,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Hyundai i20",
     "image": "assets/img/cars/hyundai-i20.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1350,
+    "price": 850,
     "deposit": 4200,
     "features": [
       "Geri görüş kamerası",
@@ -64,12 +48,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Toyota Yaris",
     "image": "assets/img/cars/toyota-yaris.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1400,
+    "price": 850,
     "deposit": 4300,
     "features": [
       "Adaptif hız sabitleyici",
@@ -80,12 +64,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Ford Fiesta",
     "image": "assets/img/cars/ford-fiesta.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1450,
+    "price": 850,
     "deposit": 4300,
     "features": [
       "Park sensörü",
@@ -96,12 +80,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Skoda Fabia",
     "image": "assets/img/cars/skoda-fabia.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1500,
+    "price": 900,
     "deposit": 4400,
     "features": [
       "LED far",
@@ -112,12 +96,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "VW Polo",
     "image": "assets/img/cars/vw-polo.webp",
     "body": "hatchback",
     "segment": "ekonomik",
-    "price": 1550,
+    "price": 1000,
     "deposit": 4400,
     "features": [
       "Dijital klima",
@@ -128,12 +112,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Renault Taliant",
     "image": "assets/img/cars/renault-taliant.webp",
     "body": "sedan",
     "segment": "ekonomik",
-    "price": 1600,
+    "price": 900,
     "deposit": 4500,
     "features": [
       "Yakıt ekonomisi",
@@ -144,12 +128,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Fiat Egea",
     "image": "assets/img/cars/Fiat-egea.webp",
     "body": "sedan",
     "segment": "ekonomik",
-    "price": 1650,
+    "price": 950,
     "deposit": 4500,
     "features": [
       "Dokunmatik ekran",
@@ -160,12 +144,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Honda City",
     "image": "assets/img/cars/honda-city.webp",
     "body": "sedan",
     "segment": "ekonomik",
-    "price": 1700,
+    "price": 950,
     "deposit": 4600,
     "features": [
       "Şerit destek",
@@ -176,12 +160,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Hyundai Accent",
     "image": "assets/img/cars/hyundai-accent.webp",
     "body": "sedan",
     "segment": "ekonomik",
-    "price": 1750,
+    "price": 1000,
     "deposit": 4600,
     "features": [
       "ABS",
@@ -192,12 +176,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Fiat 500L",
     "image": "assets/img/cars/fiat-500l.webp",
     "body": "hatchback",
     "segment": "ortasegment",
-    "price": 1800,
+    "price": 1100,
     "deposit": 4700,
     "features": [
       "Panoramik cam tavan",
@@ -208,12 +192,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Ford Focus",
     "image": "assets/img/cars/ford-focus.webp",
     "body": "hatchback",
     "segment": "ortasegment",
-    "price": 1900,
+    "price": 1200,
     "deposit": 4700,
     "features": [
       "Şerit takip",
@@ -224,12 +208,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Renault Megane Hatchback",
     "image": "assets/img/cars/renault-megane-hactback.webp",
     "body": "hatchback",
     "segment": "ortasegment",
-    "price": 2000,
+    "price": 1000,
     "deposit": 4800,
     "features": [
       "Dijital gösterge",
@@ -240,12 +224,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "VW Golf",
     "image": "assets/img/cars/vw-Golf.webp",
     "body": "hatchback",
     "segment": "ortasegment",
-    "price": 2100,
+    "price": 1400,
     "deposit": 4800,
     "features": [
       "Adaptive Cruise Control",
@@ -256,12 +240,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Honda Civic",
     "image": "assets/img/cars/honda-civic.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2200,
+    "price": 1300,
     "deposit": 4900,
     "features": [
       "Sunroof",
@@ -272,12 +256,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "Toyota Corolla Hybrid",
     "image": "assets/img/cars/toyota-corolla-hybrid.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2300,
+    "price": 1300,
     "deposit": 4900,
     "features": [
       "Hibrit sürüş",
@@ -288,12 +272,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "Renault Megane Sedan",
     "image": "assets/img/cars/Renault-megane.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2400,
+    "price": 1000,
     "deposit": 5000,
     "features": [
       "Geniş bagaj",
@@ -304,12 +288,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Hyundai Elantra",
     "image": "assets/img/cars/hyundai-elantra.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2500,
+    "price": 1200,
     "deposit": 5000,
     "features": [
       "Anahtarsız giriş",
@@ -320,12 +304,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "BMW 320d",
     "image": "assets/img/cars/bmw-320d.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2600,
+    "price": 1950,
     "deposit": 5100,
     "features": [
       "Deri koltuk",
@@ -336,12 +320,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "Audi A3",
     "image": "assets/img/cars/audi-a3.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2700,
+    "price": 1800,
     "deposit": 5100,
     "features": [
       "Virtual cockpit",
@@ -352,12 +336,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "Ford Mondeo",
     "image": "assets/img/cars/ford-mondeo.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2800,
+    "price": 1500,
     "deposit": 5200,
     "features": [
       "Adaptif far",
@@ -368,12 +352,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "VW Passat",
     "image": "assets/img/cars/Vw-Passat.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 2900,
+    "price": 1700,
     "deposit": 5200,
     "features": [
       "Masaj koltuğu",
@@ -384,12 +368,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "Skoda Superb",
     "image": "assets/img/cars/skoda-superb.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 3000,
+    "price": 1700,
     "deposit": 5300,
     "features": [
       "Geniş diz mesafesi",
@@ -400,12 +384,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "Mercedes CLA 200",
     "image": "assets/img/cars/mercedes-cla200.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 3200,
+    "price": 2000,
     "deposit": 5400,
     "features": [
       "MBUX ekran",
@@ -416,12 +400,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "Audi A6",
     "image": "assets/img/cars/audi-a6.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 3500,
+    "price": 3000,
     "deposit": 5500,
     "features": [
       "4 bölgeli klima",
@@ -432,12 +416,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "BMW 420i Coupe",
     "image": "assets/img/cars/bmw-420i.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 3800,
+    "price": 2800,
     "deposit": 5600,
     "features": [
       "Harman Kardon",
@@ -448,12 +432,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "BMW 520i",
     "image": "assets/img/cars/bmw-520i.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 4000,
+    "price": 2800,
     "deposit": 5700,
     "features": [
       "Konfor koltuk",
@@ -464,12 +448,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "Mercedes E200",
     "image": "assets/img/cars/mercedes-e200.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 4300,
+    "price": 3200,
     "deposit": 5800,
     "features": [
       "Burmester ses sistemi",
@@ -480,12 +464,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "BYD Seal",
     "image": "assets/img/cars/byd-seal.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 4600,
+    "price": 1800,
     "deposit": 5900,
     "features": [
       "Elektrikli performans",
@@ -496,12 +480,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Tesla Model",
     "image": "assets/img/cars/Tesla.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 5000,
+    "price": 2000,
     "deposit": 6000,
     "features": [
       "Otopilot",
@@ -512,12 +496,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "Porsche Taycan",
     "image": "assets/img/cars/porche-taycan.webp",
     "body": "sedan",
     "segment": "luks",
-    "price": 9500,
+    "price": 4000,
     "deposit": 7000,
     "features": [
       "Launch control",
@@ -528,12 +512,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "Ford Puma",
     "image": "assets/img/cars/ford-puma.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3100,
+    "price": 1200,
     "deposit": 5400,
     "features": [
       "Büyük bagaj",
@@ -544,12 +528,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "Audi Q2",
     "image": "assets/img/cars/audi-q2.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3300,
+    "price": 1800,
     "deposit": 5500,
     "features": [
       "Yüksek sürüş pozisyonu",
@@ -560,12 +544,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "Chery Omoda 5",
     "image": "assets/img/cars/chery-omoda5.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3400,
+    "price": 1400,
     "deposit": 5500,
     "features": [
       "360 kamera",
@@ -576,12 +560,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "Hyundai Tucson",
     "image": "assets/img/cars/hyundai-tucson.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3600,
+    "price": 1600,
     "deposit": 5600,
     "features": [
       "Isıtmalı koltuk",
@@ -592,12 +576,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 38,
+    "id": 37,
     "name": "Honda CR-V",
     "image": "assets/img/cars/honda-crv.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3900,
+    "price": 1700,
     "deposit": 5700,
     "features": [
       "Elektrikli bagaj",
@@ -608,12 +592,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "Jaecoo J7",
     "image": "assets/img/cars/jaecoo-j7.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 4200,
+    "price": 1500,
     "deposit": 5800,
     "features": [
       "Off-road modu",
@@ -624,12 +608,12 @@ window.CARS = [
     "year": 2024
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "Chery Tiggo Pro 8",
     "image": "assets/img/cars/Chery-tiggopro8.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 4500,
+    "price": 1600,
     "deposit": 5900,
     "features": [
       "7 koltuk",
@@ -640,12 +624,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "Audi Q5",
     "image": "assets/img/cars/audi-q5.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 5200,
+    "price": 2500,
     "deposit": 6100,
     "features": [
       "Quattro",
@@ -656,12 +640,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 42,
+    "id": 41,
     "name": "BMW X5",
     "image": "assets/img/cars/bmw-x5.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 6000,
+    "price": 2500,
     "deposit": 6300,
     "features": [
       "Panoramik cam tavan",
@@ -672,12 +656,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 43,
+    "id": 42,
     "name": "Range Rover Velar",
     "image": "assets/img/cars/range-rover-velar.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 7000,
+    "price": 2800,
     "deposit": 6500,
     "features": [
       "Meridian ses sistemi",
@@ -688,12 +672,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "Range Rover Sport",
     "image": "assets/img/cars/range-rover-sport.webp",
     "body": "suv",
     "segment": "luks",
-    "price": 8200,
+    "price": 3000,
     "deposit": 6800,
     "features": [
       "Hava süspansiyon",
@@ -704,12 +688,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 45,
+    "id": 44,
     "name": "Megane E-Tech",
     "image": "assets/img/cars/megane-tech.webp",
     "body": "hatchback",
     "segment": "luks",
-    "price": 4800,
+    "price": 1500,
     "deposit": 6000,
     "features": [
       "Tam elektrikli",
@@ -720,12 +704,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "Ford Courier",
     "image": "assets/img/cars/ford-courrier.webp",
     "body": "panelvan",
     "segment": "ekonomik",
-    "price": 1850,
+    "price": 1000,
     "deposit": 4700,
     "features": [
       "Kayar kapı",
@@ -736,12 +720,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Fiat Doblo",
     "image": "assets/img/cars/fiat-doblo.webp",
     "body": "panelvan",
     "segment": "ekonomik",
-    "price": 1950,
+    "price": 1000,
     "deposit": 4800,
     "features": [
       "Çift sürgülü kapı",
@@ -752,12 +736,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "Renault Express",
     "image": "assets/img/cars/renault-express.webp",
     "body": "panelvan",
     "segment": "ekonomik",
-    "price": 2050,
+    "price": 900,
     "deposit": 4800,
     "features": [
       "Yük sabitleme kancası",
@@ -768,12 +752,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "VW Caddy",
     "image": "assets/img/cars/vw-caddy.webp",
     "body": "panelvan",
     "segment": "ortasegment",
-    "price": 2350,
+    "price": 1400,
     "deposit": 5000,
     "features": [
       "Arka kamera",
@@ -784,12 +768,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "VW Passat Variant",
     "image": "assets/img/cars/vw-Passat-Stationwagon.webp",
     "body": "sedan",
     "segment": "ortasegment",
-    "price": 3150,
+    "price": 1800,
     "deposit": 5400,
     "features": [
       "Dev bagaj hacmi",
@@ -800,12 +784,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "Ford Custom",
     "image": "assets/img/cars/ford-custom.webp",
     "body": "panelvan",
     "segment": "ortasegment",
-    "price": 3700,
+    "price": 1700,
     "deposit": 5600,
     "features": [
       "8+1 oturma",
@@ -816,12 +800,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 52,
+    "id": 51,
     "name": "Mercedes Vito",
     "image": "assets/img/cars/vito-cclass.webp",
     "body": "panelvan",
     "segment": "luks",
-    "price": 4700,
+    "price": 2500,
     "deposit": 6000,
     "features": [
       "VIP dönüşüm uygunluğu",
@@ -832,12 +816,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 53,
+    "id": 52,
     "name": "VW Caravelle",
     "image": "assets/img/cars/vw-caravella.webp",
     "body": "panelvan",
     "segment": "luks",
-    "price": 5400,
+    "price": 2300,
     "deposit": 6200,
     "features": [
       "8+1 konfor paket",
@@ -848,12 +832,12 @@ window.CARS = [
     "year": 2025
   },
   {
-    "id": 54,
+    "id": 53,
     "name": "VW T-Roc",
     "image": "assets/img/cars/vw-trock.webp",
     "body": "suv",
     "segment": "ortasegment",
-    "price": 3650,
+    "price": 1300,
     "deposit": 5600,
     "features": [
       "Dijital kokpit",
